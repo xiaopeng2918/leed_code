@@ -4,6 +4,22 @@
   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "demo.j",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\code\\demo.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "1.Array1.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\code\\scene_problem\\1.Array1.js"
+    },
     {
       "type": "node",
       "request": "launch",
