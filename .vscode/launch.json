@@ -1,5 +1,5 @@
 {
-  // 使用 IntelliSense 了解相关属性。
+  // 使用 IntelliSense 了解相关属性。 
   // 悬停以查看现有属性的描述。
   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
@@ -7,30 +7,11 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "demo.j",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\code\\demo.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "1.Array1.js",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\code\\scene_problem\\1.Array1.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "2.链表-两数相加",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\code\\2.链表-两数相加.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "两数之和启动程序",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\code\\1.两数之和.js"
+      "name": "启动程序",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}\\code\\删除有序数组多余重复项.js"
     }
   ]
 }
